@@ -12,3 +12,5 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'rspec'
 end
+
+gem 'middleman-deploy', '= 2.0.0.pre.alpha'
