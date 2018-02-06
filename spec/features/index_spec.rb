@@ -9,15 +9,13 @@ describe 'Index Page', type: :feature do
     end
   end
 
-  it 'renders footer partial' do
-    visit '/'
+  it 'renders navigation bar partial' do
+  visit '/'
 
-    expect(page).to have_selector 'footer'
-    within 'footer' do
-      expect(page).to have_content 'My Portfolio'
-      expect(page).to have_content 'Built using the awesome Middleman framework'
-    end
+  expect(page).to have_selector 'navbar'
+  within 'navbar' do
+    expect(page).to have_content 'Navigation bar'
   end
-
+end
 
 end
