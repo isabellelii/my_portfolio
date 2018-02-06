@@ -18,4 +18,10 @@ describe 'Index Page', type: :feature do
   end
 end
 
+  expect(page).to have_selector 'header'
+  within 'header' do
+    expect(page).to have_content 'Portfolio'
+  end
+end
+
 end

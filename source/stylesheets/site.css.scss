@@ -16,14 +16,19 @@ a {
     color: rgba(#000, 0.6);
   }
 }
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
 
 .navbar {
     background-color: white;
     padding-top: 25px;
     padding-bottom: 25px;
     position: fixed;
-    top: 0;
+    bottom: 0;
     width: 100%;
     font-weight: normal;
-
 }
