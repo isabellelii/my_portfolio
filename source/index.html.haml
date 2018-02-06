@@ -1,23 +1,18 @@
-.wrapper
-  %header
-    %nav
-      %p test
+.card-deck
+  .card
+    %img.card-img-top{:alt => "Project1", :src => "https://www.energyjobline.com/getasset/993cd6ae-4961-4688-8094-db2e323c752d/"}/
+    .card-block
+    %h2.card-title Project
+    %p.card-text This is one of my projects
 
-  %section
-    .info
-    %p Text
+  .card
+    %img.card-img-top{:alt => "Project2", :src => "https://ak5.picdn.net/shutterstock/videos/14350765/thumb/1.jpg"}/
+    .card-block
+    %h2.card-title Project
+    %p.card-text This is one of my projects
 
-  %section
-    .info
-    %p Some text
-  %section
-    .info
-    %p More text
-
-  %footer
-    %p even more text
-
-    .projects
-      - data.projects.each do |project|
-        %h4= project[:name]
-        %p= project[:description]
+  .card
+    %img.card-img-top{:alt => "Project3", :src => "http://i1-news.softpedia-static.com/images/news2/Keep-Your-Programming-Code-Safe-Obfuscate-It-480832-2.jpg"}/
+    .card-block
+    %h2.card-title Project
+    %p.card-text This is one of my projects

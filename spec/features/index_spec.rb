@@ -14,7 +14,7 @@ describe 'Index Page', type: :feature do
 
   expect(page).to have_selector 'navbar'
   within 'navbar' do
-    expect(page).to have_content 'Navigation bar'
+    expect(page).to have_content 'navigation bar'
   end
 end
 

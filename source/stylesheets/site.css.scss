@@ -1,12 +1,9 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #313B4C;
   background-image: url("https://www.housingwire.com/ext/resources/images/editorial/A-New-Big-Images/technology/tech_two.jpg?1470759677");
-  background-size: 100%; 
+  background-size: cover;
   color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: sans-serif;
   padding: 18vh 1rem;
   text-align: center;
 }
@@ -19,7 +16,14 @@ a {
     color: rgba(#000, 0.6);
   }
 }
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+
+.navbar {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-weight: normal;
+
 }
