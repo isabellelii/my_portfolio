@@ -4,8 +4,10 @@ describe 'Index Page', type: :feature do
 
     expect(page).to have_css '.projects'
     within '.projects' do
-      expect(page).to have_content 'My First Website'
+      expect(page).to have_content 'isabelleli.github.io'
       expect(page).to have_content 'FizzBuzz'
+      expect(page).to have_content 'atm_challenge'
+      expect(page).to have_content 'library_challenge'
     end
   end
 
@@ -18,10 +20,8 @@ describe 'Index Page', type: :feature do
   end
 end
 
-  expect(page).to have_selector 'header'
-  within 'header' do
-    expect(page).to have_content 'Portfolio'
-  end
+expect(page).to have_selector 'header'
+within 'header' do
+  expect(page).to have_content 'Portfolio'
 end
-
 end
