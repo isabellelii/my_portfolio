@@ -3,7 +3,7 @@ body {
   background-image: url("https://www.housingwire.com/ext/resources/images/editorial/A-New-Big-Images/technology/tech_two.jpg?1470759677");
   background-size: cover;
   color: #333;
-  font-family: sans-serif;
+  font-family: monospace;
   padding: 18vh 1rem;
   text-align: center;
 }
@@ -44,23 +44,16 @@ h2 {
   background-color: #ffffff;
   margin: 95px;
   padding: 55px;
-
+  font-size: 16px;
 }
 
 img.card-img-top {
-  width: 260px;
+  width: center;
+
 }
 
-.cards {
-  opacity: 0.6;
-  scroll-behavior: smooth;
-  box-shadow: 5px 7px;
-  border: 1px solid black;
-  border-radius: 2%;
-  background-color: #ffffff;
-  height: 390px;
-  padding: 15px;
-}
+
+
 
 .navbar {
     background-color: white;
