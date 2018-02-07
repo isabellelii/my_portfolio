@@ -29,14 +29,16 @@ div.container-fluid {
 h2 {
   font-size: 4.5rem;
   text-align: center;
+  font-family: sans-serif;
   color: white;
-  opacity: 0.5;
+  opacity: 0.7;
 
 }
 
 
+
 .card {
-  opacity: 0.4;
+  opacity: 0.5;
   scroll-behavior: smooth;
   box-shadow: 5px 7px;
   border: 1px solid black;
@@ -45,13 +47,20 @@ h2 {
   margin: 95px;
   padding: 55px;
   font-size: 16px;
+  height: 455px;
+
 }
 
 img.card-img-top {
   width: center;
 
+
 }
 
+img.card-img {
+  width: 260px;
+
+}
 .fa {
     padding: 2px;
     font-size: 50px;
@@ -72,6 +81,36 @@ img.card-img-top {
     justify-content: space-around;
     opacity: 0.5;
 
+}
 
 
+input[type=text], select, textarea {
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    opacity: 0.7;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 13px;
+    resize: vertical
+
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #313B4C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+/*  Add a darker green color when moving the mouse over the submit button,*/
+input[type=submit]:hover {
+    background-color: #204060;
 }
