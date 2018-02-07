@@ -1,1 +1,12 @@
+.container-fluid
+  %h2 PORTFOLIO
 
+.container
+  %form{:contact => "contact.html.haml"}
+  %label{:for => "fname"} First name
+  %input#fname{:name => "firstname", :placeholder => "Your name..", :type => "text"}/
+  %label{:for => "lname"} Last Name
+  %input#lname{:name => "lastname", :placeholder => "Your last name..", :type => "text"}/
+  %label{:for => "subject"} Subject
+  %textarea#subject{:name => "subject", :placeholder => "Write something..", :style => "height:200px"}
+  %input{:type => "submit", :value => "Submit"}/
