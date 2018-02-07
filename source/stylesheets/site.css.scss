@@ -23,20 +23,44 @@ div.container-fluid {
   box-shadow: 0px 30px 40px rgba(0,0,0,.1);
   color: #313B4C;
 
+
 }
 
 h2 {
   font-size: 4.5rem;
   text-align: center;
   color: white;
+  opacity: 0.5;
 
 }
 
-section {
-  display: flex;
+
+.card {
+  opacity: 0.4;
+  scroll-behavior: smooth;
+  box-shadow: 5px 7px;
+  border: 1px solid black;
+  border-radius: 2%;
+  background-color: #ffffff;
+  margin: 95px;
+  padding: 55px;
+
 }
 
+img.card-img-top {
+  width: 260px;
+}
 
+.cards {
+  opacity: 0.6;
+  scroll-behavior: smooth;
+  box-shadow: 5px 7px;
+  border: 1px solid black;
+  border-radius: 2%;
+  background-color: #ffffff;
+  height: 390px;
+  padding: 15px;
+}
 
 .navbar {
     background-color: white;
@@ -47,4 +71,8 @@ section {
     width: 100%;
     font-weight: normal;
     justify-content: space-around;
+    opacity: 0.5;
+
+
+
 }
