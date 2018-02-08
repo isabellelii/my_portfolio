@@ -1,47 +1,13 @@
 .container-fluid
   %h2 PORTFOLIO
 
-
 .container
-.card-group
-  .card
-    %img.card-img-top{:alt => "Card image", :src => "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2011/06/Computer-Code.jpg"}/
-    .card-body
-      %h5.card-title Card title
-      %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content.
-
-  .card
-    %img.card-img-top{:alt => "Card image", :src => "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2011/06/Computer-Code.jpg"}/
-    .card-body
-      %h4.card-title Card title
-      %p.card-text This card has supporting text below as a natural lead-in to additional content.
-
-  .card
-    %img.card-img-top{:alt => "Card image", :src => "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2011/06/Computer-Code.jpg"}/
-    .card-body
-      %h4.card-title Card title
-      %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content.
-.card-group
-  .card
-    %img.card-img-top{:alt => "Card image", :src => "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2011/06/Computer-Code.jpg"}/
-    .card-body
-      %h4.card-title Card title
-      %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content.
-
-  .card
-    %img.card-img-top{:alt => "Card image", :src => "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2011/06/Computer-Code.jpg"}/
-    .card-body
-      %h4.card-title
-      %p.card-text This card has supporting text below as a natural lead-in to additional content.
-
-  .card
-    %img.card-img-top{:alt => "Card image", :src => "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2011/06/Computer-Code.jpg"}/
-    .card-body
-      %h4.card-title Card title
-      %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content.
-
-
-.projects
-  - data.projects.each do |project|
-    %h4= project[:name]
-    %p= project[:description]
+  -data.projects.each do |project|
+    .card
+      %img.card-img-top{:alt => "Card image", :src => "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2011/06/Computer-Code.jpg"}/
+      .card-body
+        %h5.card-title= project[:name]
+        %p.card-text= project[:description]
+        .d-flex.justify-content-between.align-items-center
+      .btn
+        %button.btn.btn-md.btn-default{:type => "button"} View
