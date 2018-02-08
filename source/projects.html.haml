@@ -1,7 +1,8 @@
 .container-fluid
   %h2 PORTFOLIO
 
-.container
+.container-card
+.card-deck
   -data.projects.each do |project|
     .card
       %img.card-img-top{:alt => "Card image", :src => "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2011/06/Computer-Code.jpg"}/
@@ -10,4 +11,14 @@
         %p.card-text= project[:description]
         .d-flex.justify-content-between.align-items-center
       .btn
-        %button.btn.btn-md.btn-default{:type => "button"} View
+        %a.fa.fa-github{:href => "https://github.com/isabellelii"}
+.card-deck
+  -data.projects.each do |project|
+    .card
+      %img.card-img-top{:alt => "Card image", :src => "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2011/06/Computer-Code.jpg"}/
+      .card-body
+        %h5.card-title= project[:name]
+        %p.card-text= project[:description]
+        .d-flex.justify-content-between.align-items-center
+      .btn
+        %a.fa.fa-github{:href => "https://github.com/isabellelii"}

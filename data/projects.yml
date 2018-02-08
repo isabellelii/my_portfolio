@@ -8,4 +8,4 @@
   description: Atm solution
 
 - name: library_challenge
-  description: Program that allows person to rent and return a book from a library
+  description: Check out a book in a virtual library

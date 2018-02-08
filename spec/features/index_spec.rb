@@ -1,4 +1,4 @@
-describe 'Index Page', type: :feature do
+describe 'Project Page', type: :feature do
   it 'displays project list' do
     visit '/'
 
@@ -11,14 +11,18 @@ describe 'Index Page', type: :feature do
     end
   end
 
-  it 'renders navigation bar partial' do
-  visit '/'
-  expect(page).to have_selector 'navbar'
-  within 'navbar' do
-    expect(page).to have_content 'navigation bar'
-  end
-end
+  it 'renders footer partial' do
+    visit '/'
 
-
+    expect(page).to have_selector 'footer'
+    within 'footer' do
+      expect(page).to have_content 'Isabelles Portfolio'
+      expect(page).to have_content 'On this website you will find all of my projects during my time at Craft Academy.'
+      expect(page).to have_content 'Zurich, Switzerland'
+      expect(page).to have_content 'isabellelidberg@live.se'
+      expect(page).to have_content '+41 76 450 59 51'
+    end
+    end
+  
 
 end

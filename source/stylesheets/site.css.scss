@@ -4,8 +4,8 @@ body {
   background-size: cover;
   color: #333;
   font-family: monospace;
-  padding: 18vh 1rem;
   text-align: center;
+  margin-bottom: 20%;
 }
 
 .navbar {
@@ -13,14 +13,13 @@ body {
   padding-bottom: 20px;
   position: fixed;
   top: 0;
-  height: 15%;
+  height: 8%;
   width: 100%;
   font-weight: normal;
   justify-content: space-around;
   opacity: 0.4;
   font-size: 22px;
 }
-
 
 a {
   color: rgba(#000, 0.7);
@@ -32,7 +31,7 @@ a {
 }
 
 div.container-fluid {
-  border-bottom: 2px solid;
+  border-bottom: 4px solid;
   box-shadow: 0 30px 40px rgba(0,0,0,.1);
   color: #313B4C;
 }
@@ -43,22 +42,13 @@ h2 {
   font-family: sans-serif;
   color: white;
   opacity: 0.7;
+  margin-top: 85px;
+  margin-bottom: 45px;
 }
 
-.container-text {
-  margin: 90px;
-
-}
 h3 {
-  font-size: 36px;
   color: white;
 }
-
-h4 {
-  font-size: 30px;
-  color: white;
-}
-
 
 .card {
   opacity: 0.5;
@@ -75,7 +65,7 @@ h4 {
 }
 
 img.card-img-top {
-  width: 260px;
+  width: 100%;
 }
 
 .about-card {
@@ -90,10 +80,14 @@ img.card-img-top {
   font-size: 16px;
   height: 555px;
   width: center;
-
 }
+
 img.card-img {
   width: 360px;
+}
+
+div.btn {
+  font-size: 50px;
 }
 
 .fa {
@@ -103,7 +97,6 @@ img.card-img {
   text-align: center;
   text-decoration: none;
 }
-
 
 input[type=text],
 select,
@@ -136,7 +129,7 @@ input[type=submit]:hover {
 
 textarea#subject {
   margin-left: 92px;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .container-footer {
@@ -149,6 +142,7 @@ textarea#subject {
   justify-content: space-around;
   opacity: 0.4;
   font-size: 14px;
+
 }
 
 .social {
