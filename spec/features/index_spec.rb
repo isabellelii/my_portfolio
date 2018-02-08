@@ -13,15 +13,12 @@ describe 'Index Page', type: :feature do
 
   it 'renders navigation bar partial' do
   visit '/'
-
   expect(page).to have_selector 'navbar'
   within 'navbar' do
     expect(page).to have_content 'navigation bar'
   end
 end
 
-expect(page).to have_selector 'header'
-within 'header' do
-  expect(page).to have_content 'Portfolio'
-end
+
+
 end
