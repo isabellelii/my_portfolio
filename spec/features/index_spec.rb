@@ -22,7 +22,5 @@ describe 'Project Page', type: :feature do
       expect(page).to have_content 'isabellelidberg@live.se'
       expect(page).to have_content '+41 76 450 59 51'
     end
-    end
-  
-
+  end
 end
