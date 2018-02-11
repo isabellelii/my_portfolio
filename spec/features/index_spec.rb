@@ -1,5 +1,4 @@
 describe 'projects page', type: :feature do
-
   it 'displays project list' do
     visit '/'
 
