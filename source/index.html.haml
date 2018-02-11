@@ -4,11 +4,13 @@
 .image
   %img.home{:alt => "Code quote", :src => "https://victorramosesimecu.files.wordpress.com/2015/09/joke-programmer-is-alternate.jpg"}/
 
+%h1 Education
 .education
   - data.education.each do |education|
     %h4= education[:school]
     %p= education[:major]
 
+%h1 Work experience
 .work_experience
   - data.work_experience.each do |work_experience|
     %h4= work_experience[:title]
@@ -16,6 +18,7 @@
     %p= work_experience[:employment_period]
     %p= work_experience[:location]
 
+%h1 My Projects
 .container-card
 .card-deck
   -data.projects.each do |project|
