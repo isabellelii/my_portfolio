@@ -145,6 +145,39 @@ textarea#subject {
   margin-right: 0;
 }
 
+.education {
+  opacity: 0.5;
+  scroll-behavior: smooth;
+  box-shadow: 5px 7px;
+  border: 1px solid white;
+  border-radius: 2%;
+  background-color: #ffffff;
+  margin: 40px;
+  padding: 55px;
+  font-size: 16px;
+  height: 350px;
+  width: center;
+  -moz-box-shadow: 0 0 20px white;
+  -webkit-box-shadow: 0 0 20px white;
+}
+
+.work_experience {
+  opacity: 0.5;
+  scroll-behavior: smooth;
+  box-shadow: 5px 7px;
+  border: 1px solid black;
+  border-radius: 2%;
+  background-color: #ffffff;
+  margin: 40px;
+  padding: 55px;
+  font-size: 16px;
+  height: 750px;
+  width: center;
+  -moz-box-shadow: 0 0 20px white;
+  -webkit-box-shadow: 0 0 20px white;
+}
+
+
 .container-footer {
   background-color: white;
   position: relative;

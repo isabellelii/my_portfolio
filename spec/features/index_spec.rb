@@ -23,4 +23,28 @@ describe 'Project Page', type: :feature do
       expect(page).to have_content '+41 76 450 59 51'
     end
   end
+
+  it 'displays education list' do
+    visit '/'
+
+    expect(page).to have_css '.education'
+    within '.education' do
+      expect(page).to have_content 'Thoren Business School'
+      expect(page).to have_content 'Business and Communication'
+      expect(page).to have_content '2011 - 2014'
+    end
+  end
+
+  it 'displays work_experience list' do
+    visit '/'
+
+  expect(page).to have_css '.work_experience'
+  within '.work_experience' do
+    expect(page).to have_content 'Applications development assistant '
+    expect(page).to have_content 'QualySense AG'
+    expect(page).to have_content '2011 - 2014'
+    expect(page).to have_content 'May 2017 - Present'
+    expect(page).to have_content 'Zurich, Switzerland'
+  end
+end
 end

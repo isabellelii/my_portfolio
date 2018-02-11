@@ -1,16 +1,17 @@
 .container-fluid
   %h2 PORTFOLIO
 
-.image
-  %img.home{:alt => "Code quote", :src => "https://victorramosesimecu.files.wordpress.com/2015/09/joke-programmer-is-alternate.jpg"}/
 
 .education
-  - data.education.each do |education|
+  %h1 Education
+  -data.education.each do |education|
     %h4= education[:school]
     %p= education[:major]
 
+
 .work_experience
-  - data.work_experience.each do |work_experience|
+  %h1 Work experience 
+  -data.work_experience.each do |work_experience|
     %h4= work_experience[:title]
     %p= work_experience[:company]
     %p= work_experience[:employment_period]
