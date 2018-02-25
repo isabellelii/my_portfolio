@@ -3,14 +3,14 @@
 
 
 .education
-  %h3 Education
+  %h4 Education
   -data.education.each do |education|
     %h4= education[:school]
     %p= education[:major]
 
 
 .work_experience
-  %h3 Work experience
+  %h4 Work experience
   -data.work_experience.each do |work_experience|
     %h4= work_experience[:title]
     %p= work_experience[:company]
