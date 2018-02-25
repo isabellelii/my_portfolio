@@ -1,11 +1,20 @@
-- name: isabellelii.github.io
-  description: Simple HTML5 site I've build during the PrepCourse
+- name: Virtual ATM
+  description: Exploring Ruby with a virtual ATM running in IRB
+
+- name: Library Challenge
+  description: Building a virtual library with a checkin/checkout system
+
+- name: BMI Calculator
+  description: Javascript program with web and user interface
 
 - name: FizzBuzz
   description: My first Test driven ruby project
 
-- name: atm_challenge
-  description: Atm solution
+- name: rails_messaging_wookies
+  description: Mailbox website
 
-- name: library_challenge
-  description: Check out a book in a virtual library
+- name: First portfolio
+  description: My first portfolio
+
+- name: Menu
+  description: Manu application built with Sinatra framework.
