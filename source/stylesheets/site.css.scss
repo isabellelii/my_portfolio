@@ -6,6 +6,7 @@ body {
   text-align: center;
   margin-bottom: 3%;
   overflow: visible;
+
 }
 
 .navbar {
@@ -52,6 +53,10 @@ h3 {
   color: #42797d;
 }
 
+h4 {
+
+}
+
 h5 {
   color: #42797d;
   font-size: 36px;
@@ -60,10 +65,7 @@ h5 {
 img.home {
   width: center;
   margin-top: 0px;
-  // opacity: ;
   width: 100%;
-  // -moz-box-shadow: 0 0 20px black;
-  // -webkit-box-shadow: 0 0 20px black;
 }
 
 .card {
@@ -87,14 +89,15 @@ img.card-img-top {
 }
 
 .about-card {
-  scroll-behavior: smooth;
-  margin: 40px;
-  padding: 55px;
-  font-size: 16px;
-  height: 555px;
-  width: center;
   color: #42797d;
-  padding: 5%;
+  height: 115%;
+  padding: 30px;
+}
+
+div.education {
+  background-image: url("https://github.com/isabellelii/my_portfolio/blob/master/source/images/education.jpeg?raw=true");
+  height: 800px;
+  background-size: cover;
 }
 
 img.card-img {
@@ -103,8 +106,19 @@ img.card-img {
 }
 
 p.card-text {
-  padding: 4%; 
+  padding: 4%;
 }
+
+h5.edu-text {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+p.edu-text {
+  padding: 15px;
+
+}
+
 div.btn {
   font-size: 50px;
 }
@@ -149,22 +163,6 @@ input[type=submit]:hover {
 textarea#subject {
   margin-left: 92px;
   margin-right: 0;
-}
-
-.education {
-  opacity: 0.5;
-  scroll-behavior: smooth;
-  box-shadow: 5px 7px;
-  border: 1px solid white;
-  border-radius: 2%;
-  background-color: #ffffff;
-  margin: 40px;
-  padding: 55px;
-  font-size: 16px;
-  height: 350px;
-  width: center;
-  -moz-box-shadow: 0 0 20px white;
-  -webkit-box-shadow: 0 0 20px white;
 }
 
 .work_experience {

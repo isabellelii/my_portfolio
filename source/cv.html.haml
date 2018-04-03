@@ -1,8 +1,10 @@
 .education
-  %h4 Education
-  -data.education.each do |education|
-    %h4= education[:school]
-    %p= education[:major]
+  %h5.edu-text Education
+  - data.education.each do |education|
+    %h4.edu-text= education[:school]
+    %p.edu-text= education[:major]
+    %p.edu-text= education[:description]
+
 
 .work_experience
   %h4 Work experience
