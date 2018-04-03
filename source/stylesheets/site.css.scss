@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #1E2327;
   background-size: cover;
   color: #333;
   font-family: monospace;
@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  background-color: white;
+  background-color: #323639;
   padding-bottom: 20px;
   position: fixed;
   top: 0;
@@ -23,48 +23,47 @@ body {
 
 
 a {
-  color: rgba(#000, 0.7);
-
+  color: #42797d;
+  font-size: 33px;
   &:focus,
   &:hover {
-    color: rgba(#000, 0.6);
+    color: #42797d;
   }
 }
 
 h1 {
-  color: black;
+  color: #42797d;
   font-size: 3rem;
   margin-top: 25px;
-  opacity: 0.5;
+  // opacity: 0.5;
 }
 
 h2 {
   font-size: 4.5rem;
   text-align: center;
   font-family: sans-serif;
-  color: black;
+  color: #42797d;
   opacity: 0.7;
   margin-top: 85px;
   margin-bottom: 45px;
 }
 
 h3 {
-  color: white;
+  color: #42797d;
 }
 
 h5 {
-  color: black;
+  color: #42797d;
   font-size: 36px;
 }
 
 img.home {
   width: center;
   margin-top: 0px;
-  opacity: 0.5;
+  // opacity: ;
   width: 100%;
-  border-radius: 15px;
-  -moz-box-shadow: 0 0 20px white;
-  -webkit-box-shadow: 0 0 20px white;
+  // -moz-box-shadow: 0 0 20px black;
+  // -webkit-box-shadow: 0 0 20px black;
 }
 
 .card {
@@ -88,19 +87,13 @@ img.card-img-top {
 }
 
 .about-card {
-  opacity: 0.5;
   scroll-behavior: smooth;
-  box-shadow: 5px 7px;
-  border: 1px solid white;
-  border-radius: 2%;
-  background-color: #ffffff;
   margin: 40px;
   padding: 55px;
   font-size: 16px;
   height: 555px;
   width: center;
-  -moz-box-shadow: 0 0 20px white;
-  -webkit-box-shadow: 0 0 20px white;
+  color: #42797d;
 }
 
 img.card-img {
@@ -136,7 +129,7 @@ textarea {
 
 input[type=submit] {
   background-color: #313B4C;
-  color: white;
+  color: #42797d;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
