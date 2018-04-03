@@ -1,13 +1,8 @@
-.container-fluid
-  %h2 PORTFOLIO
-
-
 .education
   %h4 Education
   -data.education.each do |education|
     %h4= education[:school]
     %p= education[:major]
-
 
 .work_experience
   %h4 Work experience
