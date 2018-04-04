@@ -24,58 +24,52 @@
 -#   %source{:src => "brokenomoreview_kopia.mp4", :type => "video/mp4"}
 -#     %source{:src => "CooperTestApplication_(1).mp4", :type => "video/mp4"}
 
-
-/ Projects section v.4
-%section.text-center.pb-3
-  / Section heading
-  %h2.font-weight-bold.h1.py-5
-    %strong Our best projects
-  .row
-    / Grid column
-    .col-md-6.mb-4
-      .card.card-image{:style => "background-image: url(https://images.unsplash.com/photo-1516549843585-2c4cf2e073d2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f780a0e96db11669bc73e99f35c5e437&auto=format&fit=crop&w=500&q=60);"}
-        .text-white.text-center.d-flex.align-items-center.rgba-black-strong.py-5.px-4.rounded
-          %div
-            %h3.py-3.font-weight-bold
-              %strong Project
-            %p.pb-3
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio
-              vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
-              qui, dolorum!
-            %button.btn.btn-dark{"aria-pressed" => "false", :autocomplete => "off", "data-toggle" => "button", :type => "button"}View
-
-    .col-md-6.mb-4
-      .card.card-image{:style => "background-image: url(https://images.unsplash.com/photo-1516549843585-2c4cf2e073d2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f780a0e96db11669bc73e99f35c5e437&auto=format&fit=crop&w=500&q=60);"}
-        .text-white.text-center.d-flex.align-items-center.rgba-black-strong.py-5.px-4.rounded
-          %div
-            %h3.py-3.font-weight-bold
-              %strong Project
-            %p.pb-3
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio
-              vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
-              qui, dolorum!
-            %button.btn.btn-dark{"aria-pressed" => "false", :autocomplete => "off", "data-toggle" => "button", :type => "button"}View
-
-    .col-md-6.mb-4
-      .card.card-image{:style => "background-image: url(https://images.unsplash.com/photo-1516549843585-2c4cf2e073d2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f780a0e96db11669bc73e99f35c5e437&auto=format&fit=crop&w=500&q=60);"}
-        .text-white.text-center.d-flex.align-items-center.rgba-black-strong.py-5.px-4.rounded
-          %div
-            %h3.py-3.font-weight-bold
-              %strong Project
-            %p.pb-3
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio
-              vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
-              qui, dolorum!
-            %button.btn.btn-dark{"aria-pressed" => "false", :autocomplete => "off", "data-toggle" => "button", :type => "button"}View
-
-    .col-md-6.mb-4
-      .card.card-image{:style => "background-image: url(https://images.unsplash.com/photo-1516549843585-2c4cf2e073d2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f780a0e96db11669bc73e99f35c5e437&auto=format&fit=crop&w=500&q=60);"}
-        .text-white.text-center.d-flex.align-items-center.rgba-black-strong.py-5.px-4.rounded
-          %div
-            %h3.py-3.font-weight-bold
-              %strong Project
-            %p.pb-3
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio
-              vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed
-              qui, dolorum!
-            %button.btn.btn-dark{"aria-pressed" => "false", :autocomplete => "off", "data-toggle" => "button", :type => "button"}View
+/ Section: Presentation
+%section.section.py-3.grey.lighten-3
+  %h1.text-center.text-uppercase.font-weight-bold.mt-5.mb-3.mt-5 My projects
+  / Section description
+  %p.text-center.text-uppercase.font-weight-bold All about my work
+  / Section description
+  %p.section-description.mt-5.pt-2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. At ab ea a molestiae corrupti numquam quo beatae minima ratione magni accusantium repellat eveniet quia vitae.
+  / First row
+  .row.ml-3.mr-3.pb-4.pt-1
+    / First column
+    .col-md-12
+      #mdb-lightbox-ui
+      / Full width lightbox
+      .mdb-lightbox
+        %figure.col-md-3
+          %a{"data-size" => "1600x1067", :href => "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(135).jpg"}
+            %img.img-fluid.z-depth-1{:src => "https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(135).jpg"}/
+          %p.text-uppercase.font-weight-bold.blue-grey-text.mt-4 | Lorem ipsum dolor sit amet
+        %figure.col-md-3
+          %a{"data-size" => "1600x1067", :href => "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(128).jpg"}
+            %img.img-fluid.z-depth-1{:src => "https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(128).jpg"}/
+          %p.text-uppercase.font-weight-bold.blue-grey-text.mt-4 | Lorem ipsum dolor sit amet
+        %figure.col-md-3
+          %a{"data-size" => "1600x1067", :href => "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(133).jpg"}
+            %img.img-fluid.z-depth-1{:src => "https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(133).jpg"}/
+          %p.text-uppercase.font-weight-bold.blue-grey-text.mt-4 | Lorem ipsum dolor sit amet
+        %figure.col-md-3
+          %a{"data-size" => "1600x1067", :href => "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(131).jpg"}
+            %img.img-fluid.z-depth-1{:src => "https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(131).jpg"}/
+          %p.text-uppercase.font-weight-bold.blue-grey-text.mt-4 | Lorem ipsum dolor sit amet
+        %figure.col-md-3
+          %a{"data-size" => "1600x1067", :href => "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(130).jpg"}
+            %img.img-fluid.z-depth-1{:src => "https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(130).jpg"}/
+          %p.text-uppercase.font-weight-bold.blue-grey-text.mt-4 | Lorem ipsum dolor sit amet
+        %figure.col-md-3
+          %a{"data-size" => "1600x1067", :href => "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(132).jpg"}
+            %img.img-fluid.z-depth-1{:src => "https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(132).jpg"}/
+          %p.text-uppercase.font-weight-bold.blue-grey-text.mt-4 | Lorem ipsum dolor sit amet
+        %figure.col-md-3
+          %a{"data-size" => "1600x1067", :href => "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg"}
+            %img.img-fluid.z-depth-1{:src => "https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(134).jpg"}/
+          %p.text-uppercase.font-weight-bold.blue-grey-text.mt-4 | Lorem ipsum dolor sit amet
+        %figure.col-md-3
+          %a{"data-size" => "1600x1067", :href => "https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(1).jpg"}
+            %img.img-fluid.z-depth-1{:src => "https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(1).jpg"}/
+          %p.text-uppercase.font-weight-bold.blue-grey-text.mt-4 | Lorem ipsum dolor sit amet
+    .col-md-12.text-center.py-4
+      %a.btn.btn-outline-black.waves-effect
+        %strong more

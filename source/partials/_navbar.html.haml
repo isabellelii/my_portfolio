@@ -1,6 +1,22 @@
-.navbar
-  %a.active{:href => "index.html"} HOME
-  %a.active{:href => "projects.html"} PROJECTS
-  %a.active{:href => "about.html"} ABOUT
-  %a.active{:href => "contact.html"} CONTACT
-  %a.active{:href => "cv.html"} CV
+!!!
+%html.full-height{:lang => "en"}
+  %body
+    %header
+      %nav.navbar.fixed-top.navbar-expand-lg.navbar-dark.scrolling-navbar
+        %a.navbar-brand{:href => "index.html"}
+          %strong HOME
+        %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarSupportedContent", "data-toggle" => "collapse", :type => "button"}
+          %span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          %ul.navbar-nav.mr-auto
+            %li.nav-item
+              %a.nav-link{:href => "projects.html"} PROJECTS
+              %span.sr-only (current)
+            %li.nav-item
+              %a.nav-link{:href => "about.html"} ABOUT
+            %li.nav-item
+              %a.nav-link{:href => "cv.html"} CV
+            %li.nav-item
+              %a.nav-link{:href => "contact.html"} CONTACT
+      .view.intro-2{:style => ""}
+    %main.text-center.py-5
