@@ -1,11 +1,12 @@
 .view {
     background: url("https://github.com/isabellelii/my_portfolio/blob/master/source/images/code.jpeg?raw=true")no-repeat center center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.navbar {
-    background-color: transparent;
-}
 
 .top-nav-collapse {
     background-color: transparent;
@@ -18,7 +19,7 @@
 }
 
 body {
-  background-color: #1E2327;
+  background-color: white;
   background-size: cover;
   color: #333;
   font-family: monospace;
@@ -103,20 +104,6 @@ img.card-img-top {
   height: 115%;
   padding-top: 30px;
   padding-bottom: 40px;
-}
-
-div.education {
-  background-image: url("https://github.com/isabellelii/my_portfolio/blob/master/source/images/education.jpeg?raw=true");
-  height: 800px;
-  background-size: cover;
-}
-
-.work_experience {
-   background-image: url("https://github.com/isabellelii/my_portfolio/blob/master/source/images/pexels-photo.jpg?raw=true");
-   scroll-behavior: smooth;
-   font-size: 16px;
-   background-size: cover;
-
 }
 
 h1.work {
@@ -385,7 +372,7 @@ textarea#subject {
 
 .timeline-badge {
     padding: 40px;
-    background-color: green;
+    background-color: #5c9fdd;
     transition: transform .2s;
     width: 200px;
     height: 200px;
