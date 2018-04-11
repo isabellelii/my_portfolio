@@ -1,3 +1,5 @@
+
+
 .about-card
   .card-body
     %h4.card-title About me
@@ -9,30 +11,142 @@
     %a.fa.fa-github{:href => "https://github.com/isabellelii"}
     %a.fa.fa-linkedin{:href => "https://linkedin.com/in/isabelle-lidberg"}
 
-.education
-  %h5.edu-text Education
-  - data.education.each do |education|
-    %h4.edu-text= education[:school]
-    %p.edu-text= education[:major]
-    %p.edu-text= education[:description]
+.container
+.row
+  .col-md-12
+    .page-header
+      %h1 My timeline
+    %ul.timeline
+      %li.timeline-item
+        .timeline-badge
+          %i.glyphicon.glyphicon-off
+        .timeline-panel
+          .timeline-heading
+            %h4.timeline-title Thorén Business School
+            %h3.timeline-text Business and communication program
+            %p 2011-2014
+      %li.timeline-item
+        .timeline-badge
+          %i.glyphicon.glyphicon-check
+        .timeline-panel
+          .timeline-heading
+            %h4.timeline-title COOP Sweden
+            %h3.timeline-text Customer sales and service representative
+            %p 2012-2015
+      %li.timeline-item
+        .timeline-badge
+          %i.glyphicon.glyphicon-check
+        .timeline-panel
+          .timeline-heading
+            %h4.timeline-title SNA Europe
+            %h3.timeline-text Order Administator
+            %p 2015
+      %li.timeline-item
+        .timeline-badge
+          %i.glyphicon.glyphicon-check
+        .timeline-panel
+          .timeline-heading
+            %h4.timeline-title Elgiganten
+            %h3.timeline-text Sales manager
+            %p 2015-2017
+      %li.timeline-item
+        .timeline-badge
+          %i.glyphicon.glyphicon-check
+        .timeline-panel
+          .timeline-heading
+            %h4.timeline-title QualySense AG
+            %h3.timeline-text Applications development assistant
+            %p 2017-Present
 
-.work_experience
-  %h1.work Work experience
-  - data.work_experience.each do |work_experience|
-    %h4.work= work_experience[:title]
-    %p= work_experience[:company]
-    %p= work_experience[:employment_period]
-    %p= work_experience[:location]
 
-%h1 My Projects
-.container-card
-.card-deck
-  -data.projects.each do |project|
-    .card
-      %img.card-img-top{:alt => "Card image", :src => "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2011/06/Computer-Code.jpg"}/
-      .card-body
-        %h5.card-title= project[:name]
-        %p.card-text= project[:description]
-        .d-flex.justify-content-between.align-items-center
-      .btn
-        %a.fa.fa-github{:href => "https://github.com/isabellelii"}
+
+%section
+  %h2
+    %strong My projects
+  .row.text-center
+    .col-lg-4.col-md-12.mb-4
+      .view.zoom.rounded.z-depth-1
+        %img.img-fluid{:alt => "Sample project image", :src => "https://images.unsplash.com/photo-1517503733723-8ea1cf616798?ixlib=rb-0.3.5&s=6bb17e326596ddb75a26e4e3c5b0bbe8&auto=format&fit=crop&w=500&q=60"}/
+        %a
+          .mask.rgba-white-slight
+      .card-body.mt-3
+        %h3
+          %strong Title of the news
+        %p.grey-text
+          Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates
+          repudiandae.
+        %a.btn.btn-dark.btn-sm
+          %i.fa.fa-clone.left
+          View project
+    .col-lg-4.col-md-6.mb-4
+      .view.zoom.rounded.z-depth-1
+        %img.img-fluid{:alt => "Sample project image", :src => "https://images.unsplash.com/photo-1492551557933-34265f7af79e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5f9e7b01025c2911f850db34fae63a8a&auto=format&fit=crop&w=500&q=60"}/
+        %a
+          .mask.rgba-white-slight
+      .card-body.mt-3
+        %h3
+          %strong Title of the news
+        %p.grey-text
+          Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates
+          repudiandae.
+        %a.btn.btn-dark.btn-sm
+          %i.fa.fa-clone.left
+          View project
+    .col-lg-4.col-md-6.mb-4
+      .view.zoom.rounded.z-depth-1
+        %img.img-fluid{:alt => "Sample project image", :src => "https://images.unsplash.com/photo-1484544808355-8ec84e534d75?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fc1407c2a550b0ebf3def8b81fa7b4a2&auto=format&fit=crop&w=500&q=60"}/
+        %a
+          .mask.rgba-white-slight
+      .card-body.mt-3
+        %h3
+          %strong Title of the news
+        %p.grey-text
+          Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates
+          repudiandae.
+        %a.btn.btn-dark.btn-sm
+          %i.fa.fa-clone.left
+          View project
+%section
+  .row.text-center
+    .col-lg-4.col-md-12.mb-4
+      .view.zoom.rounded.z-depth-1
+        %img.img-fluid{:alt => "Sample project image", :src => "https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-0.3.5&s=818f71d21a4e5100bc616bf89c341c99&auto=format&fit=crop&w=500&q=60"}/
+        %a
+          .mask.rgba-white-slight
+      .card-body.mt-3
+        %h3
+          %strong Title of the news
+        %p.grey-text
+          Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates
+          repudiandae.
+        %a.btn.btn-dark.btn-sm
+          %i.fa.fa-clone.left
+          View project
+    .col-lg-4.col-md-6.mb-4
+      .view.zoom.rounded.z-depth-1
+        %img.img-fluid{:alt => "Sample project image", :src => "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e5e8c1c5e29d1a72d4870d188b49a598&auto=format&fit=crop&w=500&q=60"}/
+        %a
+          .mask.rgba-white-slight
+      .card-body.mt-3
+        %h3
+          %strong Title of the news
+        %p.grey-text
+          Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates
+          repudiandae.
+        %a.btn.btn-dark.btn-sm
+          %i.fa.fa-clone.left
+          View project
+    .col-lg-4.col-md-6.mb-4
+      .view.zoom.rounded.z-depth-1
+        %img.img-fluid{:alt => "Sample project image", :src => "https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f3cb0473315ed1eca1b47d280bb2ab1&auto=format&fit=crop&w=500&q=60"}/
+        %a
+          .mask.rgba-white-slight
+      .card-body.mt-3
+        %h3
+          %strong Title of the news
+        %p.grey-text
+          Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates
+          repudiandae.
+        %a.btn.btn-dark.btn-sm
+          %i.fa.fa-clone.left
+          View project

@@ -28,19 +28,9 @@ body {
 
 }
 
-
-// .navbar {
-//   background-color: #323639;
-//   padding-bottom: 20px;
-//   position: fixed;
-//   top: 0;
-//   height: 18%;
-//   width: 100%;
-//   font-weight: normal;
-//   justify-content: space-around;
-//   opacity: 0.4;
-//   font-size: 22px;
-// }
+.card.testimonial-card {
+  background-size: cover;
+}
 
 
 a {
@@ -298,7 +288,7 @@ textarea#subject {
   width: 46%;
   float: left;
   right: 16px;
-  background: transparent;
+  background: white;
   padding: 20px;
 
 }
