@@ -1,11 +1,12 @@
 # Portfolio
+Deployed version of my portfolio:  https://isabellelidberg.netlify.com/
 
 On this project, I created a portfolio with all of my previous projects during CraftAcademy bootcamp.
 
 ## Synopsis
 
 This portfolio is built with the Middleman-framework and with bootstrap as a css-framework.
-To present all of my projects in the portfolio I used a YAML-file. The programming language used in this projects is HAML and ruby.
+The programming language used in this projects is HAML and ruby.
 
 ## Motivation
 
@@ -13,4 +14,4 @@ The motivation for this project was to create a website where I can put all of m
 
 ## How does it work?
 
-I deployed my portfolio to GitHub pages, so just click on this link and feel free to guide yourself around to see what I've created this week..  https://isabellelii.github.io/my_portfolio/
+I deployed my portfolio to GitHub pages, so just click on this link and feel free to guide yourself around to see what I've created this week.. 
