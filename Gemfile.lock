@@ -121,6 +121,8 @@ GEM
     ptools (1.3.5)
     public_suffix (3.0.1)
     rack (2.0.4)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
     rack-livereload (0.3.16)
       rack
     rack-test (0.8.2)
@@ -165,6 +167,7 @@ DEPENDENCIES
   middleman-livereload
   pry
   pry-byebug
+  rack-contrib (~> 1.1.0)
   rspec
   tzinfo-data
   wdm (~> 0.1)
