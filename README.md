@@ -1,4 +1,5 @@
 # Portfolio
+Deployed version of my portfolio:  https://isabellelidberg.netlify.com/
 
 On this project, I created a portfolio with all of my previous projects during CraftAcademy bootcamp.
 
@@ -13,4 +14,4 @@ The motivation for this project was to create a website where I can put all of m
 
 ## How does it work?
 
-I deployed my portfolio to GitHub pages, so just click on this link and feel free to guide yourself around to see what I've created this week.. https://isabellelidberg.netlify.com/
+I deployed my portfolio to GitHub pages, so just click on this link and feel free to guide yourself around to see what I've created this week.. 
