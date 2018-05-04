@@ -1,5 +1,5 @@
 # Portfolio
-Deployed version of my portfolio:  https://isabellelidberg.netlify.com/
+Deployed version of my portfolio:  https://isabellelidberg.netlify.com/ (WIP)
 
 On this project, I created a portfolio with all of my previous projects during CraftAcademy bootcamp.
 
